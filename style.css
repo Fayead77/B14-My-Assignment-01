@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #1a1a1a;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px 20px;
+  background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 16px 48px;
+  }
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.nav-links ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  list-style: none;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  color: #0f172a;
+  outline: none;
+}
+
+.nav-links a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+
+.register-btn {
+  display: inline-block;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.register-btn:hover,
+.register-btn:focus-visible {
+  background-color: #1d4ed8;
+}
+
+
+.register-btn:focus-visible {
+  outline: 2px solid #1e293b;
+  outline-offset: 2px;
+}
+
+
+.hero-parent-root {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('./banner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 400px;
+}
+
+.hero-parent {
+  text-align: center;
+}
+
+.text-header {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.hero-parent p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #ffffff;
+  max-width: 780px;
+  margin: 24px auto 0;
+}
+
+.hero-btn-parent {
+  margin-top: 100px;
+}
+
+.hero-btn-parent button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.hero-btn-parent button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .hero-parent-root {
+    padding-top: 60px;
+    padding-bottom: 150px;
+  }
+
+  .text-header {
+    font-size: 2.5rem;
+  }
+
+  .hero-btn-parent {
+    margin-top: 50px;
+  }
+}
+
+.hero-btn-parent button:hover {
+    background-color: #1d4ed8;
+}
