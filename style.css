@@ -164,82 +164,199 @@ body {
 }
 
 .hero-btn-parent button:hover {
-    background-color: #1d4ed8;
+  background-color: #1d4ed8;
 }
 
 
 
 .speakers-section-parent {
-    background-color: #ffffff;
-    padding: 80px 20px;
+  background-color: #ffffff;
+  padding: 80px 20px;
 }
 
 .speakers-section-parent h2 {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    color: #000000;
-    margin-bottom: 48px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 48px;
 }
 
 .speakers-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .speaker-card {
-    border: 1px solid #334155;
-    border-radius: 12px;
-    overflow: hidden;
-    background-color: #18181b;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #18181b;
+
 }
 
 .speaker-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
-    border-color: #3b82f6;
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: #3b82f6;
 }
 
 .speaker-card img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.3s ease;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
 
 
 
 .speaker-info {
-    padding: 24px;
+  padding: 24px;
 }
 
 .speaker-category {
-    display: block;
-    color: #3b82f6;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 8px;
+  display: block;
+  color: #3b82f6;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
 }
 
 
 .speaker-info h3 {
-    font-size: 20px;
-    font-weight: 800;
-    color: #ffffff; 
-    margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 6px;
 }
 
 .speaker-info p {
-    font-size: 14px;
-    color: #9ca3af; 
-    font-weight: 400;
-    margin: 0;
+  font-size: 14px;
+  color: #9ca3af;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+
+
+.pricing-section-parent h3:first-child {
+ text-align: center;
+  font-size: 40px;
+  margin-bottom: 8px;
+
+}
+
+.pricing-section-parent .subtitle {
+  text-align: center;
+  color: #9ca3af;
+  margin-bottom: 48px;
+
+}
+
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: stretch;
+
+}
+
+
+
+
+.pricing-card {
+  background-color: #18181b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 550px;
+}
+
+.pricing-card.dark-card {
+  background-color: #0f172a;
+  border: 1px solid #1e3a8a;
+  transform: none;
+}
+
+.plan-title {
+  color: #3b82f6;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pricing-card h3 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 12px 0 8px 0;
+}
+
+.plan-subtext {
+  color: #9ca3af;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #334155;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+.feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+.feature-list li::before {
+ content: "•";
+  color: #3b82f6;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.pricing-card button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: auto;
+  transition: all 0.3s ease;
+}
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #334155;
+  color: #3b82f6;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  color: #ffffff;
+}
+.btn-outline:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb
+}
+.btn-primary:hover {
+  background-color: #1d4ed8;
 }
