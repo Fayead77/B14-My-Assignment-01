@@ -1,0 +1,21 @@
+AI Prompt:
+
+I already created the Navbar, Hero, Speakers, and Pricing sections for my DevConf 2026 website. Now I need one extra section that fits the same theme.I also give you the screeen shot of my work.
+
+I want to add a Why Attend DevConf.
+
+Create a "Why Attend DevConf 2026" section for my landing page.
+
+Use the same dark background, colors, fonts and style as the rest of my website. Add a small "WHY ATTEND" text at the top, a big heading "Why Attend DevConf 2026?" with "DevConf 2026" in blue, and a short description below it.
+
+Then create 6 cards with a blue icon, a title and a short description.
+
+The cards should be:
+- Cutting-edge Talks
+- Network with 4,000+ Devs
+- Hands-on Workshops
+- Career Opportunities
+- Unforgettable Experience
+- Swag & Perks
+
+Add a simple hover effect. Give me the complete HTML and CSS.
